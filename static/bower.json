@@ -1,0 +1,17 @@
+{
+  "name": "HustleUpReplica",
+  "homepage": "https://github.com/pallavikasar/HustleUpReplica",
+  "authors": [
+    "pallavikasar <pallavikasar28@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
