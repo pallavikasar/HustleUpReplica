@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>HustleUp Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link   rel="stylesheet" href="../../static/bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="../../css/custom.css">
+
+
+
+	
+	<style>
+		
+		.caption_input{
+			font-weight: normal; font-size: 0.8em; color: #666;
+		}
+		input{
+			height: 40px !important; border-radius: 2px !important;
+			-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0, 0) !important;
+			box-shadow: inset 0 1px 1px rgba(0,0,0, 0) !important;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default" style="margin-bottom: 0px; background-color: #FFF">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+				<a class="navbar-brand" href="/">
+					<img style="width: 150px; margin-top: -15px; "  src="../../static/bower_components/images/logo.png"></img>
+				</a>
+
+			</div>
+			<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;" >
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a ui-sref="home">Home</a></li>
+					<li><a ui-sref="orgregistration">Register Organization</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+
+	<ui-view></ui-view>
+
+	<script src="../../static/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../../static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="../../static/bower_components/angular/angular.min.js"></script>
+	<script src="../../static/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="../../static/js/app.js"></script>
+	<script src="../../static/js/myController.js"></script>
+	<script src="../../static/js/myService.js"></script>
+	</body>
+</html>
